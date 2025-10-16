@@ -1,0 +1,40 @@
+name: OpenCTI
+category: threat-intelligence
+description: >
+  Open Cyber Threat Intelligence Platform designed to structure, store, organize
+  and visualize technical and non-technical information about cyber threats.
+capabilities:
+  - Threat intelligence management
+  - IOC (Indicators of Compromise) tracking
+  - Threat actor profiling
+  - Campaign analysis
+  - Vulnerability tracking
+  - Incident correlation
+  - Knowledge graph visualization
+project_url: https://github.com/OpenCTI-Platform/opencti
+documentation_url: https://docs.opencti.io/
+github_url: https://github.com/OpenCTI-Platform/opencti
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Docker
+    - Kubernetes
+    - On-premises
+  docker_compose: https://github.com/OpenCTI-Platform/opencti-docker
+integration_examples:
+  - name: MISP Integration
+    description: Import threat intelligence from MISP platforms
+    url: https://docs.opencti.io/latest/integrations/connectors/misp/
+  - name: MITRE ATT&CK Integration
+    description: Import and map techniques from MITRE ATT&CK framework
+    url: https://docs.opencti.io/latest/integrations/connectors/mitre/
+tags:
+  - Threat Intelligence
+  - IOC Management
+  - Knowledge Graph
+  - MITRE ATT&CK
+  - MISP Integration
+maintainers:
+  - OpenCTI Platform Team
+last_updated: 2024-01-15
+version: "5.12.0"

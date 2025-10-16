@@ -1,0 +1,41 @@
+name: tfsec
+category: infrastructure-security
+description: >
+  Security scanner for Terraform code that identifies potential security issues
+  and misconfigurations in Infrastructure as Code before deployment.
+capabilities:
+  - Terraform security scanning
+  - AWS security checks
+  - Azure security checks
+  - GCP security checks
+  - Kubernetes security checks
+  - Compliance validation
+  - CI/CD integration
+project_url: https://github.com/aquasecurity/tfsec
+documentation_url: https://aquasecurity.github.io/tfsec/
+github_url: https://github.com/aquasecurity/tfsec
+license: MIT
+deployment:
+  compatible_envs:
+    - CI/CD Pipelines
+    - GitHub Actions
+    - GitLab CI
+    - Jenkins
+    - Local Development
+integration_examples:
+  - name: GitHub Actions Integration
+    description: Run tfsec in GitHub Actions workflows for automated security scanning
+    url: https://github.com/aquasecurity/tfsec-action
+  - name: Pre-commit Hook
+    description: Use tfsec as a pre-commit hook to catch issues before commits
+    url: https://aquasecurity.github.io/tfsec/latest/getting-started/pre-commit/
+tags:
+  - Terraform
+  - IaC Security
+  - Cloud Security
+  - CI/CD
+  - Compliance
+maintainers:
+  - Aqua Security
+last_updated: 2024-01-15
+version: "1.28.0"

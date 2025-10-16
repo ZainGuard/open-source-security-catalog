@@ -1,0 +1,41 @@
+name: Velociraptor
+category: digital-forensics
+description: >
+  Digital forensics and incident response platform that enables rapid
+  collection and analysis of endpoint data for security investigations.
+capabilities:
+  - Real-time endpoint monitoring
+  - Forensic data collection
+  - Incident response automation
+  - Memory analysis
+  - File system analysis
+  - Network artifact collection
+  - Custom query development
+project_url: https://github.com/Velocidex/velociraptor
+documentation_url: https://docs.velociraptor.app/
+github_url: https://github.com/Velocidex/velociraptor
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Windows
+    - Linux
+    - macOS
+    - Docker
+  docker_url: https://hub.docker.com/r/velocidex/velociraptor
+integration_examples:
+  - name: Enterprise Deployment
+    description: Deploy Velociraptor in enterprise environments with load balancing
+    url: https://docs.velociraptor.app/docs/deployment/enterprise/
+  - name: Cloud Deployment
+    description: Deploy Velociraptor in cloud environments
+    url: https://docs.velociraptor.app/docs/deployment/cloud/
+tags:
+  - Digital Forensics
+  - Incident Response
+  - Endpoint Monitoring
+  - Memory Analysis
+  - Custom Queries
+maintainers:
+  - Velocidex
+last_updated: 2024-01-15
+version: "0.7.0"

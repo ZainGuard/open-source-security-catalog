@@ -1,0 +1,42 @@
+name: osquery
+category: endpoint-detection
+description: >
+  SQL-powered operating system instrumentation, monitoring, and analytics framework.
+  Enables querying system information using SQL-like syntax for security monitoring
+  and incident response.
+capabilities:
+  - Real-time system monitoring
+  - SQL-based querying
+  - File integrity monitoring
+  - Process monitoring
+  - Network connection tracking
+  - Registry monitoring (Windows)
+  - Package management queries
+project_url: https://github.com/osquery/osquery
+documentation_url: https://osquery.readthedocs.io/
+github_url: https://github.com/osquery/osquery
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - macOS
+    - Windows
+    - Kubernetes
+  docker_url: https://hub.docker.com/r/osquery/osquery
+integration_examples:
+  - name: Fleet Management
+    description: Use Fleet to manage osquery deployments across multiple hosts
+    url: https://github.com/fleetdm/fleet
+  - name: Kolide Fleet
+    description: Enterprise osquery management platform
+    url: https://www.kolide.com/
+tags:
+  - SQL
+  - Monitoring
+  - Incident Response
+  - Cross-platform
+  - Fleet Management
+maintainers:
+  - Meta (Facebook)
+last_updated: 2024-01-15
+version: "5.10.0"

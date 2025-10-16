@@ -1,0 +1,41 @@
+name: CrowdSec
+category: endpoint-detection
+description: >
+  CrowdSec is a free, open-source security engine that analyzes behaviors,
+  responds to attacks, and shares signals across the community to protect
+  everyone from cyber threats.
+capabilities:
+  - Real-time attack detection
+  - Behavioral analysis
+  - IP reputation sharing
+  - Automatic remediation
+  - Community threat intelligence
+  - Multi-source log parsing
+project_url: https://github.com/crowdsecurity/crowdsec
+documentation_url: https://docs.crowdsec.net/
+github_url: https://github.com/crowdsecurity/crowdsec
+license: MIT
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Kubernetes
+    - Cloud platforms
+  docker_url: https://hub.docker.com/r/crowdsecurity/crowdsec
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy CrowdSec with Docker Compose for containerized environments
+    url: https://docs.crowdsec.net/docs/getting_started/install_crowdsec_docker/
+  - name: Kubernetes Integration
+    description: Deploy CrowdSec agents in Kubernetes clusters
+    url: https://docs.crowdsec.net/docs/getting_started/install_crowdsec_kubernetes/
+tags:
+  - Behavioral Analysis
+  - Community Intelligence
+  - Real-time Detection
+  - Container Security
+  - Threat Intelligence
+maintainers:
+  - CrowdSec Team
+last_updated: 2024-01-15
+version: "1.5.0"
