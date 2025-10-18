@@ -1,0 +1,65 @@
+name: Passbolt
+category: secrets-management
+description: >
+  Open source password manager for teams with a focus on security, collaboration and privacy.
+  Provides end-to-end encryption, granular access control, and powerful auditing tools
+  for credential management across organizations.
+capabilities:
+  - Team password management
+  - End-to-end encryption
+  - Granular access control
+  - Audit logging and compliance
+  - Browser extensions (Chrome, Firefox, Edge)
+  - Mobile apps (iOS, Android)
+  - Command line interface
+  - Desktop application (Windows)
+  - Self-hosted deployment
+  - API integration
+project_url: https://github.com/passbolt/passbolt_api
+documentation_url: https://www.passbolt.com/help
+github_url: https://github.com/passbolt
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Docker
+    - Kubernetes
+    - Ubuntu
+    - Debian
+    - RedHat
+    - CentOS
+    - RockyLinux
+    - AlmaLinux
+    - Oracle Linux
+    - Fedora
+    - openSUSE
+    - AWS
+    - DigitalOcean
+    - Raspberry Pi
+  docker_url: https://github.com/passbolt/passbolt_docker
+  helm_chart: https://github.com/passbolt/charts-passbolt
+integration_examples:
+  - name: Docker Deployment
+    description: Quick start with Docker Compose for development and testing
+    url: https://www.passbolt.com/ce/docker
+  - name: Kubernetes Deployment
+    description: Production deployment on Kubernetes with Helm charts
+    url: https://www.passbolt.com/ce/kubernetes
+  - name: Browser Integration
+    description: Seamless password filling with browser extensions
+    url: https://github.com/passbolt/passbolt_browser_extension
+  - name: CLI Integration
+    description: Command line access via Go-based CLI tool
+    url: https://github.com/passbolt/go-passbolt-cli
+tags:
+  - Password Manager
+  - Team Collaboration
+  - End-to-End Encryption
+  - Self-Hosted
+  - Cross-Platform
+  - Audit Logging
+  - API Integration
+maintainers:
+  - Passbolt Team
+last_updated: 2024-01-15
+version: "4.7.0"
+
