@@ -1,0 +1,46 @@
+name: Security Onion
+category: siem-platform
+secondary_categories:
+  - network-security
+description: >
+  Full stack platform for log management, alerting, and analysis built on Elastic Stack.
+  Provides comprehensive network security monitoring with integrated tools for
+  threat hunting, incident response, and security analysis.
+capabilities:
+  - Log management and analysis
+  - Network security monitoring
+  - Threat hunting
+  - Incident response
+  - Alerting and notification
+  - Packet capture and analysis
+  - Network flow analysis
+  - Malware analysis
+  - Integration with multiple security tools
+project_url: https://github.com/Security-Onion-Solutions/securityonion
+documentation_url: https://docs.securityonion.net/
+github_url: https://github.com/Security-Onion-Solutions/securityonion
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Ubuntu
+    - Docker
+    - Virtual Machines
+    - Bare Metal
+integration_examples:
+  - name: Standalone Deployment
+    description: Deploy Security Onion as a standalone security monitoring platform
+    url: https://docs.securityonion.net/en/2.3/installation.html
+  - name: Distributed Deployment
+    description: Deploy Security Onion in a distributed architecture for large environments
+    url: https://docs.securityonion.net/en/2.3/distributed.html
+tags:
+  - SIEM
+  - Network Security
+  - Log Management
+  - Threat Hunting
+  - Incident Response
+  - Packet Analysis
+maintainers:
+  - Security Onion Solutions
+last_updated: 2024-01-15
+version: "2.3.0"

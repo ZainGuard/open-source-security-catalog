@@ -1,0 +1,45 @@
+name: Suricata
+category: network-security
+description: >
+  High-performance network IDS, IPS, and network security monitoring engine.
+  Provides real-time intrusion detection, prevention, and network security monitoring
+  with support for multiple protocols and advanced threat detection capabilities.
+capabilities:
+  - Network intrusion detection (NIDS)
+  - Intrusion prevention (IPS)
+  - Network security monitoring
+  - Protocol analysis
+  - File extraction
+  - TLS/SSL inspection
+  - HTTP/2 support
+  - Multi-threading support
+  - Rule-based detection
+project_url: https://github.com/OISF/suricata
+documentation_url: https://suricata.readthedocs.io/
+github_url: https://github.com/OISF/suricata
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - FreeBSD
+    - Windows
+    - Docker
+    - Kubernetes
+  docker_url: https://hub.docker.com/r/jasonish/suricata
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy Suricata in Docker containers for network monitoring
+    url: https://suricata.readthedocs.io/en/latest/installation/docker.html
+  - name: Security Onion Integration
+    description: Use Suricata as part of Security Onion's network security monitoring stack
+    url: https://securityonion.net/
+tags:
+  - Network Security
+  - IDS
+  - IPS
+  - Protocol Analysis
+  - Real-time Monitoring
+maintainers:
+  - Open Information Security Foundation (OISF)
+last_updated: 2024-01-15
+version: "7.0.0"

@@ -1,16 +1,25 @@
 name: Wazuh
 category: endpoint-detection
+secondary_categories:
+  - siem-platform
 description: >
-  Open-source security platform for threat detection, visibility, and compliance.
-  Integrates with Elastic Stack and supports agent-based monitoring across
-  multiple operating systems.
+  Open-source unified SIEM and XDR platform for threat detection, visibility, and compliance.
+  Provides comprehensive security monitoring across endpoints, cloud workloads, and containers
+  with real-time threat detection and automated incident response capabilities.
 capabilities:
+  - Endpoint Detection and Response (EDR)
+  - Security Information and Event Management (SIEM)
   - File integrity monitoring
   - Log analysis and correlation
   - Intrusion detection
   - Vulnerability detection
-  - Compliance monitoring
-  - Incident response
+  - Compliance monitoring (PCI DSS, GDPR, HIPAA, SOX)
+  - Incident response automation
+  - Cloud security monitoring
+  - Container security
+  - Network security monitoring
+  - Threat hunting
+  - Malware detection
 project_url: https://github.com/wazuh/wazuh
 documentation_url: https://documentation.wazuh.com/
 github_url: https://github.com/wazuh/wazuh
@@ -21,23 +30,36 @@ deployment:
     - Azure
     - GCP
     - Kubernetes
+    - Docker
     - On-premises
+    - Hybrid Cloud
   helm_chart: https://github.com/wazuh/wazuh-helm
   docker_compose: https://github.com/wazuh/wazuh-docker
 integration_examples:
-  - name: Kubernetes Monitoring
-    description: Deploy Wazuh agents as DaemonSets to monitor Kubernetes workloads
+  - name: Kubernetes Security Monitoring
+    description: Deploy Wazuh agents as DaemonSets to monitor Kubernetes workloads and containers
     url: https://documentation.wazuh.com/current/deployment-options/kubernetes-deployment.html
   - name: AWS CloudTrail Integration
-    description: Monitor AWS CloudTrail logs for security events
+    description: Monitor AWS CloudTrail logs for security events and compliance
     url: https://documentation.wazuh.com/current/amazon/index.html
+  - name: Elastic Stack Integration
+    description: Integrate with Elasticsearch, Logstash, and Kibana for advanced analytics
+    url: https://documentation.wazuh.com/current/deployment-options/elastic-stack/index.html
+  - name: Docker Container Monitoring
+    description: Monitor Docker containers and containerized applications
+    url: https://documentation.wazuh.com/current/docker/index.html
 tags:
   - SIEM
+  - XDR
+  - EDR
   - Agent-based
   - Elastic Stack
   - Compliance
   - Log Analysis
+  - Cloud Security
+  - Container Security
+  - Threat Detection
 maintainers:
   - Wazuh Inc.
 last_updated: 2024-01-15
-version: "4.7.0"
+version: "4.8.0"

@@ -1,0 +1,42 @@
+name: OSSIM
+category: siem-platform
+description: >
+  Open source SIEM platform based on AlienVault's technology stack.
+  Provides comprehensive security monitoring, log management, and threat detection
+  with integrated asset discovery, vulnerability assessment, and incident response.
+capabilities:
+  - Security Information and Event Management (SIEM)
+  - Log management and correlation
+  - Asset discovery and inventory
+  - Vulnerability assessment
+  - Network monitoring
+  - Threat detection
+  - Incident response
+  - Compliance reporting
+  - Risk assessment
+project_url: https://github.com/ossimlabs/ossim
+documentation_url: https://www.alienvault.com/products/ossim
+github_url: https://github.com/ossimlabs/ossim
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - On-premises
+    - Virtual Machines
+integration_examples:
+  - name: Virtual Appliance
+    description: Deploy OSSIM as a virtual appliance for comprehensive security monitoring
+    url: https://www.alienvault.com/products/ossim/download
+  - name: Custom Installation
+    description: Install OSSIM on custom Linux distributions
+    url: https://github.com/ossimlabs/ossim/wiki/Installation
+tags:
+  - SIEM
+  - Log Management
+  - Asset Discovery
+  - Vulnerability Assessment
+  - Compliance
+maintainers:
+  - AlienVault (AT&T Cybersecurity)
+last_updated: 2024-01-15
+version: "5.8.0"

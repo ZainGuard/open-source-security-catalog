@@ -1,0 +1,45 @@
+name: MISP
+category: threat-intelligence
+description: >
+  Threat intelligence sharing platform for collecting, storing, distributing and sharing
+  cybersecurity indicators and threats about cybersecurity incidents analysis and malware.
+capabilities:
+  - Threat intelligence sharing
+  - IOC (Indicators of Compromise) management
+  - Malware analysis
+  - Threat correlation
+  - Data sharing and collaboration
+  - API integration
+  - Event correlation
+  - Threat hunting
+  - Incident response support
+project_url: https://github.com/MISP/MISP
+documentation_url: https://www.circl.lu/doc/misp/
+github_url: https://github.com/MISP/MISP
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Ubuntu
+    - Debian
+    - CentOS
+    - Docker
+    - Kubernetes
+  docker_url: https://hub.docker.com/r/misp/misp
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy MISP using Docker for threat intelligence sharing
+    url: https://github.com/MISP/docker-misp
+  - name: OpenCTI Integration
+    description: Integrate MISP with OpenCTI for enhanced threat intelligence
+    url: https://docs.opencti.io/latest/integrations/connectors/misp/
+tags:
+  - Threat Intelligence
+  - IOC Management
+  - Malware Analysis
+  - Data Sharing
+  - Collaboration
+  - API Integration
+maintainers:
+  - Computer Incident Response Center Luxembourg (CIRCL)
+last_updated: 2024-01-15
+version: "2.4.180"

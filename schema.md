@@ -11,6 +11,7 @@ Each tool should be documented as a YAML file following this schema. The schema 
 ### Basic Information
 - `name`: Tool name (string)
 - `category`: Primary category (string) - must match one of the defined categories
+- `secondary_categories`: Additional categories (array of strings) - optional, for tools spanning multiple domains
 - `description`: Brief description of the tool's purpose and capabilities (string)
 - `project_url`: Primary project URL (string)
 - `license`: License type (string)
@@ -49,6 +50,7 @@ Each tool should be documented as a YAML file following this schema. The schema 
 Tools must be categorized into one of these predefined categories:
 
 - `endpoint-detection`: Endpoint Detection & Response (EDR), agent-based monitoring
+- `siem-platform`: Security Information and Event Management platforms
 - `infrastructure-security`: Infrastructure as Code scanning, compliance, hardening
 - `threat-intelligence`: Threat feeds, IOC management, intelligence platforms
 - `network-security`: Network monitoring, intrusion detection, traffic analysis
@@ -63,11 +65,15 @@ Tools must be categorized into one of these predefined categories:
 ```yaml
 name: Wazuh
 category: endpoint-detection
+secondary_categories:
+  - siem-platform
 description: >
-  Open-source security platform for threat detection, visibility, and compliance.
-  Integrates with Elastic Stack and supports agent-based monitoring across
-  multiple operating systems.
+  Open-source unified SIEM and XDR platform for threat detection, visibility, and compliance.
+  Provides comprehensive security monitoring across endpoints, cloud workloads, and containers
+  with real-time threat detection and automated incident response capabilities.
 capabilities:
+  - Endpoint Detection and Response (EDR)
+  - Security Information and Event Management (SIEM)
   - File integrity monitoring
   - Log analysis and correlation
   - Intrusion detection
@@ -103,7 +109,7 @@ tags:
 maintainers:
   - Wazuh Inc.
 last_updated: 2024-01-15
-version: "4.7.0"
+version: "4.8.0"
 ```
 
 ## Validation Rules
