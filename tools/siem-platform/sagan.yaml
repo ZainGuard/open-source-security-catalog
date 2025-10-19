@@ -1,0 +1,43 @@
+name: Sagan
+category: siem-platform
+description: >
+  Log analysis engine designed for real-time log analysis and correlation.
+  Provides fast log processing, pattern matching, and alerting capabilities
+  for security monitoring and incident detection.
+capabilities:
+  - Real-time log analysis
+  - Log correlation
+  - Pattern matching
+  - Alert generation
+  - Fast log processing
+  - Custom rule creation
+  - Multiple log format support
+  - Integration capabilities
+  - Performance optimization
+project_url: https://github.com/quadrantsec/sagan
+documentation_url: https://sagan.readthedocs.io/
+github_url: https://github.com/quadrantsec/sagan
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Unix
+    - Docker
+integration_examples:
+  - name: Log Analysis Setup
+    description: Configure Sagan for real-time log analysis and correlation
+    url: https://sagan.readthedocs.io/
+  - name: Rule Development
+    description: Create custom rules for specific log analysis requirements
+    url: https://sagan.readthedocs.io/
+tags:
+  - Log Analysis
+  - Real-time Processing
+  - Pattern Matching
+  - Alerting
+  - Correlation
+  - Performance
+maintainers:
+  - Quadrant Information Security
+last_updated: 2024-01-15
+version: "1.3.0"

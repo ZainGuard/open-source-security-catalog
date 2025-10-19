@@ -1,0 +1,47 @@
+name: Prowler
+category: infrastructure-security
+description: >
+  Open-source cloud security tool for AWS, Azure, GCP, Kubernetes, and M365.
+  Provides comprehensive security assessments, compliance checks, and continuous
+  monitoring capabilities for cloud environments and infrastructure.
+capabilities:
+  - Multi-cloud security assessment
+  - Compliance framework support (CIS, NIST, PCI-DSS, GDPR, HIPAA)
+  - Continuous monitoring
+  - Security hardening recommendations
+  - Incident response support
+  - Forensics readiness
+  - Agent-less operation
+  - Custom checks and rules
+  - Comprehensive reporting
+project_url: https://github.com/prowler-cloud/prowler
+documentation_url: https://prowler.pro/
+github_url: https://github.com/prowler-cloud/prowler
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - CI/CD Pipelines
+integration_examples:
+  - name: AWS Security Assessment
+    description: Use Prowler for comprehensive AWS security and compliance assessment
+    url: https://prowler.pro/
+  - name: CI/CD Integration
+    description: Integrate Prowler into CI/CD pipelines for continuous security monitoring
+    url: https://prowler.pro/
+tags:
+  - Cloud Security
+  - Multi-cloud
+  - Compliance
+  - Security Assessment
+  - Continuous Monitoring
+  - CIS Benchmark
+  - NIST Framework
+  - Agent-less
+maintainers:
+  - Prowler Cloud Team
+last_updated: 2024-01-15
+version: "4.0.0"

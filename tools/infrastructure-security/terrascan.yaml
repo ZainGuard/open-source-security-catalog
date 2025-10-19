@@ -1,0 +1,51 @@
+name: Terrascan
+category: infrastructure-security
+description: >
+  Static code analyzer for Infrastructure as Code (IaC) that provides comprehensive
+  security scanning for Terraform, Kubernetes, Helm, Docker, and other IaC formats.
+  Helps identify security vulnerabilities, compliance violations, and misconfigurations
+  before deployment.
+capabilities:
+  - Infrastructure as Code security scanning
+  - Terraform security analysis
+  - Kubernetes security scanning
+  - Helm chart analysis
+  - Docker security scanning
+  - Compliance framework support
+  - Custom policy creation
+  - CI/CD integration
+  - Multiple output formats
+  - Policy as Code support
+project_url: https://github.com/tenable/terrascan
+documentation_url: https://runterrascan.io/
+github_url: https://github.com/tenable/terrascan
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - CI/CD Pipelines
+    - GitHub Actions
+integration_examples:
+  - name: GitHub Actions Integration
+    description: Integrate Terrascan into GitHub Actions for automated IaC security scanning
+    url: https://github.com/tenable/terrascan
+  - name: Pre-commit Hook
+    description: Use Terrascan as a pre-commit hook to catch security issues early
+    url: https://runterrascan.io/
+tags:
+  - Infrastructure as Code
+  - Terraform Security
+  - Kubernetes Security
+  - Helm Security
+  - Docker Security
+  - Compliance Scanning
+  - CI/CD Integration
+  - Policy as Code
+  - Static Analysis
+maintainers:
+  - Tenable
+last_updated: 2024-01-15
+version: "1.18.0"

@@ -1,0 +1,46 @@
+name: AWS Security Hub
+category: cloud-security
+description: >
+  AWS Security Hub integration and management tool that provides centralized
+  security findings aggregation, compliance monitoring, and security insights
+  across AWS accounts. Offers comprehensive security posture management
+  and automated security response capabilities.
+capabilities:
+  - Centralized security findings
+  - Compliance monitoring
+  - Security insights aggregation
+  - Automated security response
+  - Multi-account security management
+  - Custom security standards
+  - Integration with AWS services
+  - Security posture assessment
+  - Automated remediation
+project_url: https://github.com/aws/aws-security-hub
+documentation_url: https://docs.aws.amazon.com/securityhub/
+github_url: https://github.com/aws/aws-security-hub
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - AWS Cloud
+    - Multi-account environments
+    - Enterprise AWS deployments
+integration_examples:
+  - name: Multi-account Setup
+    description: Set up Security Hub across multiple AWS accounts for centralized security management
+    url: https://docs.aws.amazon.com/securityhub/
+  - name: Custom Standards
+    description: Create custom security standards and compliance frameworks
+    url: https://docs.aws.amazon.com/securityhub/
+tags:
+  - AWS Security
+  - Centralized Security
+  - Compliance Monitoring
+  - Security Insights
+  - Multi-account
+  - Automated Response
+  - Security Posture
+  - AWS Integration
+maintainers:
+  - Amazon Web Services
+last_updated: 2024-01-15
+version: "1.0.0"

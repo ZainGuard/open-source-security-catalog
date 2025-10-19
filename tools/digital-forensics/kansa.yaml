@@ -1,0 +1,45 @@
+name: Kansa
+category: digital-forensics
+description: >
+  Windows incident response framework built with PowerShell that provides
+  comprehensive data collection and analysis capabilities for Windows systems.
+  Enables rapid incident response and forensic data gathering across Windows
+  environments.
+capabilities:
+  - Windows incident response
+  - PowerShell-based data collection
+  - Forensic data gathering
+  - System analysis
+  - Event log analysis
+  - Registry analysis
+  - Process analysis
+  - Network analysis
+  - Custom module development
+  - Remote execution
+project_url: https://github.com/davehull/Kansa
+documentation_url: https://github.com/davehull/Kansa
+github_url: https://github.com/davehull/Kansa
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Windows
+    - PowerShell
+integration_examples:
+  - name: Incident Response
+    description: Use Kansa for rapid Windows incident response and data collection
+    url: https://github.com/davehull/Kansa
+  - name: Custom Modules
+    description: Develop custom PowerShell modules for specific analysis requirements
+    url: https://github.com/davehull/Kansa
+tags:
+  - Windows Security
+  - Incident Response
+  - PowerShell
+  - Data Collection
+  - Forensic Analysis
+  - Remote Execution
+  - Custom Modules
+maintainers:
+  - Dave Hull
+last_updated: 2024-01-15
+version: "1.0.0"

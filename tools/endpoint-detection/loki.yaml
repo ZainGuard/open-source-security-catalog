@@ -1,0 +1,43 @@
+name: Loki
+category: endpoint-detection
+description: >
+  IOC (Indicators of Compromise) scanner and file detection tool designed for
+  incident response and threat hunting. Scans systems for known malicious
+  indicators including file hashes, IP addresses, and domain names.
+capabilities:
+  - IOC scanning and detection
+  - File hash checking
+  - IP address analysis
+  - Domain name checking
+  - Registry analysis
+  - Process analysis
+  - Network connection analysis
+  - YARA rule support
+  - Incident response support
+project_url: https://github.com/Neo23x0/Loki
+documentation_url: https://github.com/Neo23x0/Loki
+github_url: https://github.com/Neo23x0/Loki
+license: GPL-3.0
+deployment:
+  compatible_envs:
+    - Windows
+    - Linux
+    - macOS
+integration_examples:
+  - name: Incident Response
+    description: Use Loki for IOC scanning during incident response
+    url: https://github.com/Neo23x0/Loki
+  - name: Threat Hunting
+    description: Deploy Loki for proactive threat hunting activities
+    url: https://github.com/Neo23x0/Loki
+tags:
+  - IOC Scanning
+  - Threat Hunting
+  - Incident Response
+  - File Detection
+  - YARA Rules
+  - Cross-platform
+maintainers:
+  - Florian Roth
+last_updated: 2024-01-15
+version: "1.6.0"

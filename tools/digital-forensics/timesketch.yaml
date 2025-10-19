@@ -1,0 +1,52 @@
+name: Timesketch
+category: digital-forensics
+description: >
+  Open-source collaborative forensic timeline analysis tool for digital forensics and incident response.
+  Enables security teams to organize, analyze, and collaborate on forensic timelines
+  using sketches for efficient investigation and evidence correlation.
+capabilities:
+  - Collaborative timeline analysis
+  - Forensic timeline creation and management
+  - Multi-user collaboration and sharing
+  - Timeline visualization and exploration
+  - Search and filtering capabilities
+  - Data import from multiple sources (JSON, CSV)
+  - Sigma rule integration for threat detection
+  - Intelligence and threat hunting features
+  - Analyzer framework for automated analysis
+  - API and CLI client support
+  - Interactive notebook integration
+project_url: https://github.com/google/timesketch
+documentation_url: https://timesketch.org/
+github_url: https://github.com/google/timesketch
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Docker
+    - Kubernetes
+    - Linux
+    - Cloud platforms
+    - On-premises
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy Timesketch using Docker for easy setup and management
+    url: https://timesketch.org/quickstart/
+  - name: Sigma Integration
+    description: Use Sigma rules for automated threat detection in timelines
+    url: https://timesketch.org/user-guide/use-sigma/
+  - name: API Integration
+    description: Integrate Timesketch with other security tools via REST API
+    url: https://timesketch.org/developers/api-client/
+tags:
+  - Digital Forensics
+  - Timeline Analysis
+  - Incident Response
+  - Collaboration
+  - Threat Hunting
+  - Sigma Rules
+  - Data Visualization
+  - Forensic Investigation
+maintainers:
+  - Google Security Team
+last_updated: 2024-01-15
+version: "20240301"

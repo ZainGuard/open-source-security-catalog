@@ -1,0 +1,47 @@
+name: Gitleaks
+category: secrets-management
+description: >
+  Open-source tool for finding secrets and sensitive information in Git repositories.
+  Provides comprehensive secret detection capabilities for preventing credential
+  leaks and ensuring secure development practices across code repositories.
+capabilities:
+  - Git repository secret scanning
+  - Credential leak detection
+  - Multiple secret format support
+  - CI/CD integration
+  - Pre-commit hook support
+  - Custom rule creation
+  - High accuracy detection
+  - Multiple output formats
+  - Real-time scanning
+project_url: https://github.com/gitleaks/gitleaks
+documentation_url: https://gitleaks.io/
+github_url: https://github.com/gitleaks/gitleaks
+license: MIT
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - CI/CD Pipelines
+    - GitHub Actions
+integration_examples:
+  - name: GitHub Actions Integration
+    description: Integrate Gitleaks into GitHub Actions workflows
+    url: https://github.com/gitleaks/gitleaks-action
+  - name: Pre-commit Hook
+    description: Use Gitleaks as a pre-commit hook to prevent secret commits
+    url: https://github.com/gitleaks/gitleaks
+tags:
+  - Secret Scanning
+  - Git Security
+  - Credential Detection
+  - CI/CD Integration
+  - Pre-commit Hooks
+  - DevSecOps
+  - Data Loss Prevention
+maintainers:
+  - Gitleaks Team
+last_updated: 2024-01-15
+version: "8.18.0"

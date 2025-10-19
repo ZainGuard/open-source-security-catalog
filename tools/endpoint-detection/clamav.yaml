@@ -1,0 +1,46 @@
+name: ClamAV
+category: endpoint-detection
+description: >
+  Open-source signature-based antivirus engine designed for email scanning,
+  web scanning, and endpoint protection. Provides comprehensive malware detection
+  capabilities with extensive signature database and real-time scanning support.
+capabilities:
+  - Signature-based antivirus scanning
+  - Email scanning
+  - Web scanning
+  - Real-time protection
+  - On-demand scanning
+  - Archive scanning
+  - Multi-threaded scanning
+  - Custom signature support
+  - Cross-platform support
+project_url: https://github.com/Cisco-Talos/clamav
+documentation_url: https://docs.clamav.net/
+github_url: https://github.com/Cisco-Talos/clamav
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - FreeBSD
+    - Docker
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy ClamAV using Docker for containerized scanning
+    url: https://github.com/Cisco-Talos/clamav
+  - name: Email Integration
+    description: Integrate ClamAV with email servers for email scanning
+    url: https://docs.clamav.net/
+tags:
+  - Antivirus
+  - Malware Detection
+  - Email Scanning
+  - Web Scanning
+  - Signature-based
+  - Cross-platform
+  - Real-time Protection
+maintainers:
+  - Cisco Talos
+last_updated: 2024-01-15
+version: "1.0.0"

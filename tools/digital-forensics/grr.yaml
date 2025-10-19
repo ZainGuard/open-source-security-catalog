@@ -1,0 +1,45 @@
+name: GRR
+category: digital-forensics
+description: >
+  Google's remote live forensics tool for incident response and digital forensics.
+  Provides remote access to client machines for forensic data collection,
+  analysis, and incident response capabilities across distributed environments.
+capabilities:
+  - Remote live forensics
+  - Client machine access
+  - Forensic data collection
+  - Incident response
+  - Distributed forensics
+  - Real-time analysis
+  - File system access
+  - Memory analysis
+  - Network forensics
+  - Cross-platform support
+project_url: https://github.com/google/grr
+documentation_url: https://grr-doc.readthedocs.io/
+github_url: https://github.com/google/grr
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy GRR server using Docker for remote forensics
+    url: https://github.com/google/grr
+  - name: Client Deployment
+    description: Deploy GRR clients across target machines for forensics
+    url: https://grr-doc.readthedocs.io/
+tags:
+  - Remote Forensics
+  - Incident Response
+  - Live Forensics
+  - Data Collection
+  - Cross-platform
+  - Distributed Analysis
+maintainers:
+  - Google Security Team
+last_updated: 2024-01-15
+version: "3.4.0"

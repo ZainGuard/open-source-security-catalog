@@ -1,0 +1,53 @@
+name: Volatility 3
+category: digital-forensics
+description: >
+  The world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples.
+  Provides comprehensive memory forensics capabilities for incident response, malware analysis,
+  and digital investigations across Windows, Linux, and macOS systems.
+capabilities:
+  - Volatile memory (RAM) analysis
+  - Digital artifact extraction
+  - Malware analysis and detection
+  - Process and thread analysis
+  - Network connection analysis
+  - File system analysis
+  - Registry analysis (Windows)
+  - Cross-platform support (Windows, Linux, macOS)
+  - Plugin-based architecture
+  - Symbol table support
+  - Memory dump analysis
+  - Incident response support
+project_url: https://github.com/volatilityfoundation/volatility3
+documentation_url: https://volatility3.readthedocs.io/
+github_url: https://github.com/volatilityfoundation/volatility3
+license: VSL-1.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Python environments
+integration_examples:
+  - name: Python Installation
+    description: Install Volatility 3 via pip for easy deployment
+    url: https://github.com/volatilityfoundation/volatility3#installing
+  - name: Symbol Tables
+    description: Download and configure symbol tables for different operating systems
+    url: https://downloads.volatilityfoundation.org/volatility3/symbols/
+  - name: Memory Analysis Workflow
+    description: Complete workflow for analyzing memory dumps from compromised systems
+    url: https://volatility3.readthedocs.io/en/latest/
+tags:
+  - Memory Forensics
+  - RAM Analysis
+  - Malware Analysis
+  - Incident Response
+  - Digital Forensics
+  - Cross-platform
+  - Plugin Architecture
+  - Memory Dump Analysis
+maintainers:
+  - Volatility Foundation
+last_updated: 2024-01-15
+version: "2.26.2"

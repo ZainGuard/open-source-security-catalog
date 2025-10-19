@@ -1,0 +1,51 @@
+name: Web-check
+category: threat-intelligence
+description: >
+  All-in-one OSINT tool for analyzing any website and gathering comprehensive
+  intelligence about web assets. Provides detailed analysis of domains, IPs,
+  technologies, and security configurations for threat intelligence and
+  reconnaissance purposes.
+capabilities:
+  - Website analysis and reconnaissance
+  - Domain intelligence gathering
+  - IP address analysis
+  - Technology stack detection
+  - Security configuration analysis
+  - SSL/TLS certificate analysis
+  - DNS record analysis
+  - Subdomain enumeration
+  - Port scanning
+  - Vulnerability assessment
+project_url: https://github.com/Lissy93/web-check
+documentation_url: https://web-check.xyz/
+github_url: https://github.com/Lissy93/web-check
+license: MIT
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Web browsers
+    - Node.js environments
+integration_examples:
+  - name: Web Interface
+    description: Use Web-check's web interface for interactive website analysis
+    url: https://web-check.xyz/
+  - name: CLI Usage
+    description: Use Web-check via command line for automated website analysis
+    url: https://github.com/Lissy93/web-check
+tags:
+  - OSINT
+  - Website Analysis
+  - Domain Intelligence
+  - Technology Detection
+  - Security Analysis
+  - Reconnaissance
+  - Threat Intelligence
+  - Web Interface
+  - CLI Tool
+maintainers:
+  - Lissy93
+last_updated: 2024-01-15
+version: "1.0.0"

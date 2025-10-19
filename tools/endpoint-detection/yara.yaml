@@ -1,0 +1,46 @@
+name: YARA
+category: endpoint-detection
+description: >
+  Pattern matching engine for malware research and detection. Provides a powerful
+  rule-based approach to identify and classify malware samples, enabling
+  researchers and security professionals to create custom detection rules.
+capabilities:
+  - Pattern matching engine
+  - Malware classification
+  - Custom rule creation
+  - String matching
+  - Binary pattern analysis
+  - Metadata analysis
+  - Cross-platform support
+  - Integration capabilities
+  - Research tool
+project_url: https://github.com/VirusTotal/yara
+documentation_url: https://yara.readthedocs.io/
+github_url: https://github.com/VirusTotal/yara
+license: BSD-3-Clause
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - FreeBSD
+    - Docker
+integration_examples:
+  - name: Malware Research
+    description: Use YARA for malware research and classification
+    url: https://yara.readthedocs.io/
+  - name: Integration with Security Tools
+    description: Integrate YARA with other security tools for pattern matching
+    url: https://yara.readthedocs.io/
+tags:
+  - Pattern Matching
+  - Malware Research
+  - Rule-based Detection
+  - Binary Analysis
+  - Cross-platform
+  - Research Tool
+  - Custom Rules
+maintainers:
+  - VirusTotal
+last_updated: 2024-01-15
+version: "4.3.0"

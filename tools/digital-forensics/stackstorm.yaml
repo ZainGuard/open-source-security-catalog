@@ -1,0 +1,46 @@
+name: StackStorm
+category: digital-forensics
+secondary_categories:
+  - siem-platform
+description: >
+  Event-driven SOAR (Security Orchestration, Automation and Response) platform
+  that provides workflow automation, event processing, and incident response
+  capabilities. Enables automated security workflows and integration between tools.
+capabilities:
+  - Security orchestration and automation
+  - Event-driven workflows
+  - Incident response automation
+  - Tool integration
+  - Workflow management
+  - Event processing
+  - Custom action development
+  - Rule-based automation
+  - API integration
+project_url: https://github.com/StackStorm/st2
+documentation_url: https://docs.stackstorm.com/
+github_url: https://github.com/StackStorm/st2
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Kubernetes
+    - Cloud platforms
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy StackStorm using Docker for SOAR capabilities
+    url: https://docs.stackstorm.com/install/docker.html
+  - name: Workflow Automation
+    description: Create automated security workflows for incident response
+    url: https://docs.stackstorm.com/
+tags:
+  - SOAR
+  - Security Orchestration
+  - Automation
+  - Incident Response
+  - Workflow Management
+  - Event Processing
+maintainers:
+  - StackStorm Community
+last_updated: 2024-01-15
+version: "3.8.0"

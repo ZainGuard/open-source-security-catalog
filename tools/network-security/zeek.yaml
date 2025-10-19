@@ -1,0 +1,43 @@
+name: Zeek
+category: network-security
+description: >
+  Network security monitor (formerly Bro) that provides comprehensive network
+  analysis and monitoring capabilities. Focuses on network protocol analysis,
+  traffic reconstruction, and security event detection through scripting.
+capabilities:
+  - Network security monitoring
+  - Protocol analysis
+  - Traffic reconstruction
+  - Scripting-based detection
+  - Network forensics
+  - Log generation
+  - Real-time analysis
+  - Custom protocol support
+  - Network visibility
+project_url: https://github.com/zeek/zeek
+documentation_url: https://docs.zeek.org/
+github_url: https://github.com/zeek/zeek
+license: BSD-3-Clause
+deployment:
+  compatible_envs:
+    - Linux
+    - FreeBSD
+    - macOS
+    - Docker
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy Zeek using Docker for network monitoring
+    url: https://github.com/zeek/zeek-docker
+  - name: Security Onion Integration
+    description: Use Zeek as part of Security Onion's network security stack
+    url: https://securityonion.net/
+tags:
+  - Network Security
+  - Protocol Analysis
+  - Network Monitoring
+  - Scripting
+  - Network Forensics
+maintainers:
+  - Zeek Project
+last_updated: 2024-01-15
+version: "6.0.0"

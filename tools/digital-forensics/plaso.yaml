@@ -1,0 +1,49 @@
+name: Plaso
+category: digital-forensics
+description: >
+  Python-based engine for automatic creation of timelines from digital evidence.
+  Provides comprehensive timeline analysis capabilities for digital forensic
+  investigators by collecting and correlating timestamped events from various
+  sources across computer systems.
+capabilities:
+  - Automatic timeline creation
+  - Super timeline generation
+  - Targeted timeline creation
+  - Timestamped event collection
+  - Log file parsing
+  - Registry analysis
+  - File system analysis
+  - Custom parser development
+  - Analysis plugin support
+  - Event correlation
+  - Tagging and categorization
+project_url: https://github.com/log2timeline/plaso
+documentation_url: https://plaso.readthedocs.io/
+github_url: https://github.com/log2timeline/plaso
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Python environments
+integration_examples:
+  - name: Timesketch Integration
+    description: Use Plaso with Timesketch for collaborative timeline analysis
+    url: https://plaso.readthedocs.io/
+  - name: Custom Parser Development
+    description: Develop custom parsers for specific forensic requirements
+    url: https://plaso.readthedocs.io/
+tags:
+  - Timeline Analysis
+  - Digital Forensics
+  - Event Correlation
+  - Log Parsing
+  - Registry Analysis
+  - Custom Parsers
+  - Super Timeline
+maintainers:
+  - Log2Timeline Project
+last_updated: 2024-01-15
+version: "20250918"

@@ -52,12 +52,14 @@ Tools must be categorized into one of these predefined categories:
 - `endpoint-detection`: Endpoint Detection & Response (EDR), agent-based monitoring
 - `siem-platform`: Security Information and Event Management platforms
 - `infrastructure-security`: Infrastructure as Code scanning, compliance, hardening
+- `cloud-security`: Cloud-specific security tools for AWS, Azure, GCP, and multi-cloud environments
 - `threat-intelligence`: Threat feeds, IOC management, intelligence platforms
 - `network-security`: Network monitoring, intrusion detection, traffic analysis
 - `vulnerability-management`: Vulnerability scanning, assessment, remediation
 - `digital-forensics`: Incident response, forensics, memory analysis
 - `identity-access`: Authentication, authorization, identity management
 - `secrets-management`: Secret scanning, vault solutions, credential management
+- `email-security`: Email filtering, anti-spam, secure email gateways
 - `compliance`: Compliance frameworks, audit trails, reporting
 
 ## Example Schema

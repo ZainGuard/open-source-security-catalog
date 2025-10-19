@@ -1,0 +1,47 @@
+name: Social Analyzer
+category: threat-intelligence
+description: >
+  API, CLI, and Web App for analyzing and finding a person's profile across
+  1000+ social media websites and platforms. Provides comprehensive OSINT
+  capabilities for social media intelligence gathering and analysis.
+capabilities:
+  - Social media profile analysis
+  - Multi-platform search
+  - Username enumeration
+  - Profile discovery
+  - OSINT intelligence gathering
+  - API and CLI interfaces
+  - Web application interface
+  - Custom search modules
+  - Comprehensive reporting
+project_url: https://github.com/qeeqbox/social-analyzer
+documentation_url: https://github.com/qeeqbox/social-analyzer
+github_url: https://github.com/qeeqbox/social-analyzer
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Web browsers
+integration_examples:
+  - name: Web Interface
+    description: Use Social Analyzer's web interface for interactive social media analysis
+    url: https://github.com/qeeqbox/social-analyzer
+  - name: API Integration
+    description: Integrate Social Analyzer API into other security tools
+    url: https://github.com/qeeqbox/social-analyzer
+tags:
+  - Social Media Analysis
+  - OSINT
+  - Profile Discovery
+  - Username Enumeration
+  - Intelligence Gathering
+  - Multi-platform
+  - API Integration
+  - Web Interface
+maintainers:
+  - Qeeqbox Team
+last_updated: 2024-01-15
+version: "1.0.0"

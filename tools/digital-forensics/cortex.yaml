@@ -1,0 +1,43 @@
+name: Cortex
+category: digital-forensics
+description: >
+  Companion to TheHive for automated analysis and enrichment of security events.
+  Provides a framework for running analyzers on observables and artifacts,
+  enabling automated threat intelligence and forensic analysis workflows.
+capabilities:
+  - Automated analysis framework
+  - Observable analysis
+  - Artifact processing
+  - Threat intelligence enrichment
+  - Analyzer framework
+  - Integration with TheHive
+  - Custom analyzer development
+  - API-based analysis
+  - Workflow automation
+project_url: https://github.com/TheHive-Project/Cortex
+documentation_url: https://docs.thehive-project.org/cortex/
+github_url: https://github.com/TheHive-Project/Cortex
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Kubernetes
+integration_examples:
+  - name: TheHive Integration
+    description: Integrate Cortex with TheHive for automated analysis
+    url: https://docs.thehive-project.org/cortex/
+  - name: Analyzer Development
+    description: Develop custom analyzers for specific analysis requirements
+    url: https://docs.thehive-project.org/cortex/
+tags:
+  - Automated Analysis
+  - Threat Intelligence
+  - Analyzer Framework
+  - TheHive Integration
+  - Enrichment
+  - Workflow Automation
+maintainers:
+  - TheHive Project
+last_updated: 2024-01-15
+version: "3.1.0"

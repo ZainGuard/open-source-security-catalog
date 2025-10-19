@@ -1,0 +1,47 @@
+name: S3Scanner
+category: cloud-security
+description: >
+  AWS S3 bucket security scanner that identifies publicly accessible S3 buckets
+  and analyzes their security configurations. Helps prevent data breaches by
+  detecting misconfigured S3 buckets and providing security recommendations.
+capabilities:
+  - S3 bucket discovery
+  - Public bucket detection
+  - Security configuration analysis
+  - Permission enumeration
+  - Data exposure detection
+  - Security recommendations
+  - Bulk scanning capabilities
+  - Custom scanning rules
+  - Detailed reporting
+project_url: https://github.com/sa7mon/S3Scanner
+documentation_url: https://github.com/sa7mon/S3Scanner
+github_url: https://github.com/sa7mon/S3Scanner
+license: MIT
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Python environments
+integration_examples:
+  - name: S3 Security Assessment
+    description: Scan S3 buckets for security misconfigurations and public access
+    url: https://github.com/sa7mon/S3Scanner
+  - name: Bulk Scanning
+    description: Perform bulk scanning of S3 buckets across multiple accounts
+    url: https://github.com/sa7mon/S3Scanner
+tags:
+  - S3 Security
+  - AWS Security
+  - Bucket Scanning
+  - Public Access Detection
+  - Security Configuration
+  - Data Exposure Prevention
+  - Bulk Scanning
+  - Security Recommendations
+maintainers:
+  - Dan Saemon
+last_updated: 2024-01-15
+version: "1.0.0"

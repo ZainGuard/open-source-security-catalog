@@ -1,0 +1,46 @@
+name: Arkime
+category: network-security
+description: >
+  Full packet capture and search system (formerly Moloch) that provides comprehensive
+  network traffic analysis capabilities. Enables capture, indexing, and searching
+  of network packets for security analysis and network forensics.
+capabilities:
+  - Full packet capture
+  - Packet indexing and search
+  - Network traffic analysis
+  - Real-time monitoring
+  - Historical analysis
+  - Protocol analysis
+  - Custom queries
+  - Multi-user access
+  - Scalable architecture
+  - Web-based interface
+project_url: https://github.com/arkime/arkime
+documentation_url: https://arkime.com/
+github_url: https://github.com/arkime/arkime
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Kubernetes
+    - Cloud platforms
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy Arkime using Docker for packet capture and analysis
+    url: https://github.com/arkime/arkime
+  - name: Cluster Deployment
+    description: Deploy Arkime in cluster mode for high-volume traffic analysis
+    url: https://arkime.com/
+tags:
+  - Packet Capture
+  - Network Analysis
+  - Traffic Monitoring
+  - Network Forensics
+  - Real-time Analysis
+  - Scalable Architecture
+  - Web Interface
+maintainers:
+  - Arkime Project
+last_updated: 2024-01-15
+version: "5.0.0"

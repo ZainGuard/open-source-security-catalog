@@ -1,0 +1,45 @@
+name: MailScanner
+category: email-security
+description: >
+  Email filtering and virus scanning system that provides comprehensive email security
+  for inbound and outbound mail. Integrates with multiple antivirus engines and
+  provides spam filtering, content filtering, and attachment scanning.
+capabilities:
+  - Email filtering and scanning
+  - Virus scanning integration
+  - Spam detection and filtering
+  - Content filtering
+  - Attachment scanning
+  - Inbound and outbound mail processing
+  - Multiple antivirus engine support
+  - Custom rule creation
+  - Email quarantine management
+  - Reporting and logging
+project_url: https://github.com/MailScanner/v5
+documentation_url: https://www.mailscanner.info/
+github_url: https://github.com/MailScanner/v5
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Unix
+    - Mail servers
+    - Enterprise environments
+integration_examples:
+  - name: Postfix Integration
+    description: Integrate MailScanner with Postfix for comprehensive email security
+    url: https://www.mailscanner.info/docs/
+  - name: Sendmail Integration
+    description: Use MailScanner with Sendmail mail server
+    url: https://www.mailscanner.info/docs/
+tags:
+  - Email Filtering
+  - Virus Scanning
+  - Spam Detection
+  - Content Filtering
+  - Mail Server Integration
+  - Antivirus Integration
+maintainers:
+  - MailScanner Team
+last_updated: 2024-01-15
+version: "5.4.0"

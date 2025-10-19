@@ -1,0 +1,45 @@
+name: CloudMapper
+category: cloud-security
+description: >
+  AWS network visualization and security analysis tool that provides comprehensive
+  mapping of AWS infrastructure, security group analysis, and network topology
+  visualization. Helps identify security misconfigurations and network vulnerabilities.
+capabilities:
+  - AWS network visualization
+  - Security group analysis
+  - Network topology mapping
+  - Infrastructure discovery
+  - Security misconfiguration detection
+  - Attack path analysis
+  - Compliance checking
+  - Multi-account support
+  - Custom analysis rules
+project_url: https://github.com/duo-labs/cloudmapper
+documentation_url: https://github.com/duo-labs/cloudmapper
+github_url: https://github.com/duo-labs/cloudmapper
+license: BSD-3-Clause
+deployment:
+  compatible_envs:
+    - Linux
+    - macOS
+    - Docker
+    - Python environments
+integration_examples:
+  - name: Network Analysis
+    description: Use CloudMapper to analyze AWS network topology and security groups
+    url: https://github.com/duo-labs/cloudmapper
+  - name: Security Assessment
+    description: Perform comprehensive security assessment of AWS infrastructure
+    url: https://github.com/duo-labs/cloudmapper
+tags:
+  - AWS Security
+  - Network Visualization
+  - Security Group Analysis
+  - Infrastructure Mapping
+  - Attack Path Analysis
+  - Compliance
+  - Multi-account
+maintainers:
+  - Duo Security (Cisco)
+last_updated: 2024-01-15
+version: "1.0.0"

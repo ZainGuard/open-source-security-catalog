@@ -1,0 +1,46 @@
+name: TruffleHog
+category: secrets-management
+description: >
+  Open-source tool for finding, verifying, and analyzing leaked credentials
+  across various sources. Provides comprehensive secret detection with
+  verification capabilities to reduce false positives and improve accuracy.
+capabilities:
+  - Secret detection and verification
+  - Credential leak analysis
+  - Multiple source scanning
+  - Verification capabilities
+  - False positive reduction
+  - Custom detector support
+  - CI/CD integration
+  - Real-time scanning
+  - Comprehensive reporting
+project_url: https://github.com/trufflesecurity/trufflehog
+documentation_url: https://trufflesecurity.com/
+github_url: https://github.com/trufflesecurity/trufflehog
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - CI/CD Pipelines
+integration_examples:
+  - name: GitHub Integration
+    description: Integrate TruffleHog with GitHub for secret scanning
+    url: https://github.com/trufflesecurity/trufflehog
+  - name: CI/CD Pipeline
+    description: Use TruffleHog in CI/CD pipelines for automated secret detection
+    url: https://github.com/trufflesecurity/trufflehog
+tags:
+  - Secret Detection
+  - Credential Verification
+  - Leak Analysis
+  - CI/CD Integration
+  - False Positive Reduction
+  - Custom Detectors
+  - DevSecOps
+maintainers:
+  - Truffle Security
+last_updated: 2024-01-15
+version: "3.70.0"

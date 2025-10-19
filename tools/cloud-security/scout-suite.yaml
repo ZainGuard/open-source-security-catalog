@@ -1,0 +1,49 @@
+name: Scout Suite
+category: cloud-security
+description: >
+  Multi-cloud security auditing tool that provides comprehensive security
+  assessment capabilities for AWS, Azure, GCP, and Alibaba Cloud. Offers
+  automated security scanning, compliance checking, and detailed reporting
+  for cloud infrastructure security.
+capabilities:
+  - Multi-cloud security auditing
+  - AWS security assessment
+  - Azure security assessment
+  - GCP security assessment
+  - Alibaba Cloud security assessment
+  - Automated security scanning
+  - Compliance framework support
+  - Detailed security reporting
+  - Custom rule creation
+  - Integration capabilities
+project_url: https://github.com/nccgroup/ScoutSuite
+documentation_url: https://github.com/nccgroup/ScoutSuite
+github_url: https://github.com/nccgroup/ScoutSuite
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Python environments
+integration_examples:
+  - name: Multi-cloud Assessment
+    description: Perform comprehensive security assessment across multiple cloud providers
+    url: https://github.com/nccgroup/ScoutSuite
+  - name: Compliance Auditing
+    description: Use Scout Suite for compliance auditing and reporting
+    url: https://github.com/nccgroup/ScoutSuite
+tags:
+  - Multi-cloud Security
+  - AWS Security
+  - Azure Security
+  - GCP Security
+  - Security Auditing
+  - Compliance
+  - Automated Scanning
+  - Detailed Reporting
+maintainers:
+  - NCC Group
+last_updated: 2024-01-15
+version: "5.0.0"

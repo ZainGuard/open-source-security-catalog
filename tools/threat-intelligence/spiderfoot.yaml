@@ -1,0 +1,45 @@
+name: SpiderFoot
+category: threat-intelligence
+description: >
+  Open-source reconnaissance and OSINT automation tool that automates the process
+  of gathering intelligence about a given target. Provides comprehensive footprinting
+  capabilities for security assessments and threat intelligence gathering.
+capabilities:
+  - OSINT automation
+  - Reconnaissance automation
+  - Target footprinting
+  - Intelligence gathering
+  - Domain analysis
+  - IP address investigation
+  - Email address analysis
+  - Social media intelligence
+  - Custom module development
+  - API integration
+project_url: https://github.com/smicallef/spiderfoot
+documentation_url: https://www.spiderfoot.net/
+github_url: https://github.com/smicallef/spiderfoot
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy SpiderFoot using Docker for OSINT automation
+    url: https://github.com/smicallef/spiderfoot
+  - name: Web Interface
+    description: Use SpiderFoot's web interface for interactive reconnaissance
+    url: https://www.spiderfoot.net/
+tags:
+  - OSINT
+  - Reconnaissance
+  - Intelligence Gathering
+  - Footprinting
+  - Automation
+  - Web Interface
+maintainers:
+  - Steve Micallef
+last_updated: 2024-01-15
+version: "4.0.0"

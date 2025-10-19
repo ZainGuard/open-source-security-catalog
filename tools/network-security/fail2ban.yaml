@@ -1,0 +1,45 @@
+name: Fail2ban
+category: network-security
+description: >
+  Intrusion prevention system that monitors log files and bans IP addresses
+  that show malicious activity. Provides automated protection against brute
+  force attacks and other security threats through dynamic firewall rules.
+capabilities:
+  - Intrusion detection and prevention
+  - IP address banning
+  - Log file monitoring
+  - Brute force protection
+  - Dynamic firewall rules
+  - Multiple service support
+  - Custom filter creation
+  - Email notifications
+  - Cross-platform support
+project_url: https://github.com/fail2ban/fail2ban
+documentation_url: https://www.fail2ban.org/
+github_url: https://github.com/fail2ban/fail2ban
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - macOS
+    - FreeBSD
+    - Unix systems
+integration_examples:
+  - name: SSH Protection
+    description: Configure Fail2ban to protect SSH from brute force attacks
+    url: https://www.fail2ban.org/
+  - name: Web Server Protection
+    description: Use Fail2ban to protect web servers from malicious requests
+    url: https://www.fail2ban.org/
+tags:
+  - Intrusion Prevention
+  - IP Banning
+  - Brute Force Protection
+  - Log Monitoring
+  - Firewall Rules
+  - Cross-platform
+  - Automated Protection
+maintainers:
+  - Fail2ban Team
+last_updated: 2024-01-15
+version: "1.0.0"

@@ -1,0 +1,45 @@
+name: SpamAssassin
+category: email-security
+description: >
+  Apache SpamAssassin is an open-source anti-spam platform that uses a variety of
+  techniques including text analysis, Bayesian filtering, DNS blocklists, and
+  collaborative filtering databases to identify and filter spam emails.
+capabilities:
+  - Spam detection and filtering
+  - Bayesian filtering
+  - DNS blocklist checking
+  - Collaborative filtering
+  - Text analysis
+  - Rule-based filtering
+  - Integration with mail servers
+  - Custom rule creation
+  - Learning from user feedback
+  - Multi-language support
+project_url: https://github.com/apache/spamassassin
+documentation_url: https://spamassassin.apache.org/
+github_url: https://github.com/apache/spamassassin
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Unix
+    - Docker
+    - Mail servers
+integration_examples:
+  - name: Postfix Integration
+    description: Integrate SpamAssassin with Postfix mail server
+    url: https://spamassassin.apache.org/fom-serve/cache/93.html
+  - name: Docker Deployment
+    description: Deploy SpamAssassin using Docker containers
+    url: https://github.com/apache/spamassassin
+tags:
+  - Anti-spam
+  - Email Filtering
+  - Bayesian Filtering
+  - DNS Blocklists
+  - Mail Server Integration
+  - Text Analysis
+maintainers:
+  - Apache Software Foundation
+last_updated: 2024-01-15
+version: "4.0.0"

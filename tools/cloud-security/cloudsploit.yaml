@@ -1,0 +1,48 @@
+name: CloudSploit
+category: cloud-security
+description: >
+  AWS security scanning and monitoring tool that provides comprehensive
+  security assessment capabilities for AWS infrastructure. Offers real-time
+  security monitoring, compliance checking, and automated security scanning
+  with detailed reporting and alerting capabilities.
+capabilities:
+  - AWS security scanning
+  - Real-time security monitoring
+  - Compliance framework support
+  - Automated security assessment
+  - Security alerting
+  - Detailed security reporting
+  - Custom security rules
+  - Multi-account support
+  - Integration capabilities
+project_url: https://github.com/aquasecurity/cloudsploit
+documentation_url: https://cloudsploit.com/
+github_url: https://github.com/aquasecurity/cloudsploit
+license: MIT
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Node.js environments
+integration_examples:
+  - name: Real-time Monitoring
+    description: Set up real-time security monitoring for AWS infrastructure
+    url: https://cloudsploit.com/
+  - name: Compliance Auditing
+    description: Use CloudSploit for compliance auditing and reporting
+    url: https://cloudsploit.com/
+tags:
+  - AWS Security
+  - Security Scanning
+  - Real-time Monitoring
+  - Compliance
+  - Automated Assessment
+  - Security Alerting
+  - Multi-account
+  - Detailed Reporting
+maintainers:
+  - Aqua Security
+last_updated: 2024-01-15
+version: "2.0.0"

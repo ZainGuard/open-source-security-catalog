@@ -1,0 +1,49 @@
+name: Infisical
+category: secrets-management
+description: >
+  Open-source platform for secrets, certificates, and privileged access management.
+  Provides comprehensive secret management capabilities with encryption,
+  access control, and integration support for modern development workflows.
+capabilities:
+  - Secret management platform
+  - Certificate management
+  - Privileged access management
+  - Encryption and security
+  - Access control and permissions
+  - API integration
+  - CLI tools
+  - Web interface
+  - Team collaboration
+  - Audit logging
+project_url: https://github.com/Infisical/infisical
+documentation_url: https://infisical.com/docs
+github_url: https://github.com/Infisical/infisical
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - Docker
+    - Kubernetes
+    - Cloud platforms
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy Infisical using Docker for secret management
+    url: https://github.com/Infisical/infisical
+  - name: CLI Integration
+    description: Use Infisical CLI for development workflow integration
+    url: https://infisical.com/docs/cli/overview
+tags:
+  - Secret Management
+  - Certificate Management
+  - Privileged Access
+  - Encryption
+  - Access Control
+  - Team Collaboration
+  - API Integration
+  - CLI Tools
+maintainers:
+  - Infisical Team
+last_updated: 2024-01-15
+version: "0.8.0"

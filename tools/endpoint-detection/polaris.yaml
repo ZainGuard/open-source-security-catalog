@@ -1,0 +1,43 @@
+name: Polaris
+category: endpoint-detection
+description: >
+  Statistics collection server for Santa endpoint security system.
+  Provides centralized monitoring, analytics, and reporting capabilities
+  for Santa deployments across macOS environments.
+capabilities:
+  - Statistics collection and aggregation
+  - Centralized monitoring dashboard
+  - Santa event analytics
+  - Performance metrics tracking
+  - Historical data analysis
+  - Alerting and notifications
+  - Integration with Santa agents
+  - Data visualization
+project_url: https://github.com/northpolesec/polaris
+documentation_url: https://polaris.readthedocs.io/
+github_url: https://github.com/northpolesec/polaris
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Cloud platforms
+    - On-premises
+integration_examples:
+  - name: Santa Integration
+    description: Collect and analyze statistics from Santa endpoint security agents
+    url: https://github.com/northpolesec/santa
+  - name: Docker Deployment
+    description: Deploy Polaris using Docker for easy containerized management
+    url: https://github.com/northpolesec/polaris
+tags:
+  - Statistics Collection
+  - Monitoring
+  - Analytics
+  - Santa Integration
+  - Centralized Management
+  - Data Visualization
+maintainers:
+  - North Pole Security
+last_updated: 2024-01-15
+version: "1.0.0"

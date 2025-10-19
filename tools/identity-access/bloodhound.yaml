@@ -1,0 +1,45 @@
+name: BloodHound
+category: identity-access
+description: >
+  Active Directory attack path visualizer that maps attack paths and privilege
+  escalation opportunities in Active Directory environments. Provides comprehensive
+  analysis of AD security posture and identifies potential attack vectors.
+capabilities:
+  - Active Directory attack path visualization
+  - Privilege escalation analysis
+  - AD security posture assessment
+  - Attack vector identification
+  - Graph-based analysis
+  - Custom queries
+  - Data collection automation
+  - Security assessment
+  - Red team support
+project_url: https://github.com/BloodHoundAD/BloodHound
+documentation_url: https://bloodhound.readthedocs.io/
+github_url: https://github.com/BloodHoundAD/BloodHound
+license: GPL-3.0
+deployment:
+  compatible_envs:
+    - Windows
+    - Linux
+    - macOS
+    - Docker
+integration_examples:
+  - name: SharpHound Collection
+    description: Use SharpHound for automated AD data collection
+    url: https://github.com/BloodHoundAD/SharpHound
+  - name: BloodHound.py
+    description: Use BloodHound.py for Linux-based AD enumeration
+    url: https://github.com/fox-it/BloodHound.py
+tags:
+  - Active Directory
+  - Attack Path Visualization
+  - Privilege Escalation
+  - Red Team
+  - Security Assessment
+  - Graph Analysis
+  - Windows Security
+maintainers:
+  - BloodHoundAD Team
+last_updated: 2024-01-15
+version: "4.3.0"

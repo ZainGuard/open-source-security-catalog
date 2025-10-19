@@ -1,0 +1,44 @@
+name: MozDef
+category: siem-platform
+description: >
+  Mozilla's defensive security orchestration platform that provides real-time
+  security event processing, alerting, and incident response capabilities.
+  Designed for high-volume security event processing and automated response.
+capabilities:
+  - Security event processing
+  - Real-time alerting
+  - Incident response automation
+  - High-volume event handling
+  - Threat intelligence integration
+  - Automated response workflows
+  - Security orchestration
+  - Event correlation
+  - Dashboard and visualization
+project_url: https://github.com/mozilla/MozDef
+documentation_url: https://mozdef.readthedocs.io/
+github_url: https://github.com/mozilla/MozDef
+license: MPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Kubernetes
+    - Cloud platforms
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy MozDef using Docker for security orchestration
+    url: https://github.com/mozilla/MozDef
+  - name: Kubernetes Deployment
+    description: Scale MozDef using Kubernetes for enterprise deployments
+    url: https://github.com/mozilla/MozDef
+tags:
+  - SIEM
+  - Security Orchestration
+  - Incident Response
+  - Event Processing
+  - Automation
+  - High-volume Processing
+maintainers:
+  - Mozilla Security Team
+last_updated: 2024-01-15
+version: "2.0.0"

@@ -1,0 +1,45 @@
+name: pfSense
+category: network-security
+description: >
+  FreeBSD-based full-featured firewall and router platform that provides
+  comprehensive network security capabilities. Offers advanced firewall features,
+  VPN support, traffic shaping, and extensive third-party package support.
+capabilities:
+  - Advanced firewall functionality
+  - VPN server and client support
+  - Traffic shaping and QoS
+  - Intrusion detection and prevention
+  - Load balancing
+  - High availability
+  - Web-based management interface
+  - Third-party package support
+  - Network monitoring
+project_url: https://github.com/pfsense/pfsense
+documentation_url: https://docs.netgate.com/pfsense/
+github_url: https://github.com/pfsense/pfsense
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - FreeBSD
+    - Bare metal
+    - Virtual machines
+    - Cloud platforms
+integration_examples:
+  - name: Virtual Appliance
+    description: Deploy pfSense as a virtual appliance for network security
+    url: https://www.pfsense.org/download/
+  - name: Hardware Appliance
+    description: Install pfSense on dedicated hardware for enterprise use
+    url: https://www.pfsense.org/download/
+tags:
+  - Firewall
+  - VPN
+  - Traffic Shaping
+  - Load Balancing
+  - High Availability
+  - Network Security
+  - FreeBSD
+maintainers:
+  - Netgate
+last_updated: 2024-01-15
+version: "2.7.0"

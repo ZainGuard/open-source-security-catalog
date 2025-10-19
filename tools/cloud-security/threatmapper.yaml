@@ -1,0 +1,50 @@
+name: ThreatMapper
+category: cloud-security
+description: >
+  Open-source Cloud-Native Application Protection Platform (CNAPP) that hunts for
+  threats in production platforms and ranks them based on risk-of-exploit.
+  Provides comprehensive security scanning across cloud, serverless, and container
+  environments with multi-cloud support.
+capabilities:
+  - Cloud-native threat hunting
+  - Risk-based threat ranking
+  - Multi-cloud security scanning
+  - Container security analysis
+  - Serverless security assessment
+  - Vulnerability detection
+  - Attack path analysis
+  - Security posture assessment
+  - Multi-modal scanning
+  - Production platform security
+project_url: https://github.com/deepfence/ThreatMapper
+documentation_url: https://threatmapper.org/
+github_url: https://github.com/deepfence/ThreatMapper
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - Kubernetes
+    - Docker
+    - Cloud platforms
+    - On-premises
+    - Multi-cloud environments
+integration_examples:
+  - name: Kubernetes Deployment
+    description: Deploy ThreatMapper in Kubernetes for cloud-native security scanning
+    url: https://threatmapper.org/
+  - name: Multi-cloud Assessment
+    description: Use ThreatMapper for comprehensive multi-cloud security assessment
+    url: https://threatmapper.org/
+tags:
+  - CNAPP
+  - Cloud-native Security
+  - Threat Hunting
+  - Risk Assessment
+  - Multi-cloud
+  - Container Security
+  - Serverless Security
+  - Vulnerability Detection
+  - Attack Path Analysis
+maintainers:
+  - Deepfence
+last_updated: 2024-01-15
+version: "1.0.0"

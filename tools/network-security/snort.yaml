@@ -1,0 +1,43 @@
+name: Snort
+category: network-security
+description: >
+  Signature-based network intrusion detection system (NIDS) that performs real-time
+  traffic analysis and packet logging on IP networks. Provides comprehensive
+  network security monitoring with extensive rule-based detection capabilities.
+capabilities:
+  - Network intrusion detection (NIDS)
+  - Real-time traffic analysis
+  - Packet logging and analysis
+  - Signature-based detection
+  - Protocol analysis
+  - Custom rule creation
+  - Alert generation
+  - Network monitoring
+  - Traffic inspection
+project_url: https://github.com/snort3/snort3
+documentation_url: https://www.snort.org/
+github_url: https://github.com/snort3/snort3
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - FreeBSD
+    - Windows
+    - Docker
+integration_examples:
+  - name: Snort 3 Installation
+    description: Deploy Snort 3 for modern network intrusion detection
+    url: https://www.snort.org/downloads
+  - name: Rule Management
+    description: Configure and manage Snort rules for threat detection
+    url: https://www.snort.org/rules
+tags:
+  - Network Security
+  - IDS
+  - Signature-based Detection
+  - Packet Analysis
+  - Real-time Monitoring
+maintainers:
+  - Cisco Systems
+last_updated: 2024-01-15
+version: "3.1.0"

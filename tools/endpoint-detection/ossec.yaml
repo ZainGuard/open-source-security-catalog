@@ -1,0 +1,45 @@
+name: OSSEC
+category: endpoint-detection
+description: >
+  Host-based intrusion detection system (HIDS) that provides comprehensive
+  security monitoring for servers and workstations. Monitors file integrity,
+  log analysis, rootkit detection, and provides real-time alerting.
+capabilities:
+  - Host-based intrusion detection (HIDS)
+  - File integrity monitoring
+  - Log analysis and correlation
+  - Rootkit detection
+  - Real-time alerting
+  - Policy enforcement
+  - Active response
+  - Cross-platform support
+  - Centralized management
+project_url: https://github.com/ossec/ossec-hids
+documentation_url: https://www.ossec.net/
+github_url: https://github.com/ossec/ossec-hids
+license: GPL-2.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Windows
+    - macOS
+    - FreeBSD
+    - Solaris
+integration_examples:
+  - name: Multi-platform Deployment
+    description: Deploy OSSEC agents across different operating systems
+    url: https://www.ossec.net/docs/
+  - name: Centralized Management
+    description: Use OSSEC server for centralized agent management
+    url: https://www.ossec.net/docs/
+tags:
+  - HIDS
+  - File Integrity Monitoring
+  - Log Analysis
+  - Rootkit Detection
+  - Cross-platform
+  - Centralized Management
+maintainers:
+  - OSSEC Project
+last_updated: 2024-01-15
+version: "3.7.0"

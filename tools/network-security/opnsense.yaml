@@ -1,0 +1,46 @@
+name: OPNSense
+category: network-security
+description: >
+  Hardened fork of pfSense that provides enhanced security features and
+  modern web interface. Offers comprehensive firewall, VPN, and network
+  security capabilities with focus on security and usability.
+capabilities:
+  - Advanced firewall functionality
+  - VPN server and client support
+  - Intrusion detection and prevention
+  - Traffic shaping and QoS
+  - Load balancing
+  - High availability
+  - Modern web interface
+  - Enhanced security features
+  - Plugin system
+project_url: https://github.com/opnsense/core
+documentation_url: https://docs.opnsense.org/
+github_url: https://github.com/opnsense/core
+license: BSD-2-Clause
+deployment:
+  compatible_envs:
+    - FreeBSD
+    - Bare metal
+    - Virtual machines
+    - Cloud platforms
+integration_examples:
+  - name: Virtual Appliance
+    description: Deploy OPNSense as a virtual appliance for network security
+    url: https://opnsense.org/download/
+  - name: Hardware Appliance
+    description: Install OPNSense on dedicated hardware for enterprise use
+    url: https://opnsense.org/download/
+tags:
+  - Firewall
+  - VPN
+  - Intrusion Detection
+  - Traffic Shaping
+  - Load Balancing
+  - High Availability
+  - Network Security
+  - FreeBSD
+maintainers:
+  - Deciso B.V.
+last_updated: 2024-01-15
+version: "24.1.0"

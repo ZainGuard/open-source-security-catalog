@@ -1,0 +1,45 @@
+name: Proxmox Mail Gateway
+category: email-security
+description: >
+  Open-source email security gateway that provides comprehensive email filtering,
+  antivirus scanning, and spam protection. Built on Debian with a web-based
+  management interface for easy configuration and monitoring.
+capabilities:
+  - Email gateway functionality
+  - Antivirus scanning
+  - Spam filtering
+  - Content filtering
+  - Attachment scanning
+  - Web-based management interface
+  - Real-time monitoring
+  - Quarantine management
+  - Reporting and analytics
+  - Integration with LDAP/AD
+project_url: https://github.com/proxmox/pve-mailgateway
+documentation_url: https://www.proxmox.com/en/proxmox-mail-gateway
+github_url: https://github.com/proxmox/pve-mailgateway
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Debian
+    - Virtual machines
+    - Bare metal
+    - Cloud platforms
+integration_examples:
+  - name: Virtual Appliance
+    description: Deploy Proxmox Mail Gateway as a virtual appliance
+    url: https://www.proxmox.com/en/downloads/proxmox-mail-gateway
+  - name: LDAP Integration
+    description: Integrate with LDAP/Active Directory for user management
+    url: https://pve.proxmox.com/wiki/Mail_Gateway
+tags:
+  - Email Gateway
+  - Antivirus
+  - Spam Filtering
+  - Web Interface
+  - Virtual Appliance
+  - LDAP Integration
+maintainers:
+  - Proxmox Server Solutions GmbH
+last_updated: 2024-01-15
+version: "8.0.0"

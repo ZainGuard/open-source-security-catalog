@@ -1,0 +1,47 @@
+name: Santa
+category: endpoint-detection
+description: >
+  A binary and file access authorization system for macOS that provides endpoint security
+  through application whitelisting, blacklisting, and monitoring capabilities.
+  Designed to protect macOS systems from malicious software and unauthorized applications.
+capabilities:
+  - Binary authorization and whitelisting
+  - File access monitoring and control
+  - Application blacklisting
+  - Real-time process monitoring
+  - Kernel extension for system-level protection
+  - Centralized rule management
+  - Event logging and reporting
+  - Integration with external systems
+  - macOS-specific security controls
+project_url: https://github.com/northpolesec/santa
+documentation_url: https://santa.readthedocs.io/
+github_url: https://github.com/northpolesec/santa
+license: Apache-2.0
+deployment:
+  compatible_envs:
+    - macOS
+    - Enterprise environments
+    - Managed macOS deployments
+integration_examples:
+  - name: Enterprise Deployment
+    description: Deploy Santa across enterprise macOS environments with centralized management
+    url: https://santa.readthedocs.io/en/latest/deployment/
+  - name: Polaris Integration
+    description: Use Polaris statistics collection server for Santa monitoring
+    url: https://github.com/northpolesec/polaris
+  - name: Rule Management
+    description: Import and manage Santa rules from external systems
+    url: https://github.com/northpolesec/santa-rule-importer
+tags:
+  - macOS Security
+  - Application Whitelisting
+  - Endpoint Protection
+  - Binary Authorization
+  - File Access Control
+  - Kernel Extension
+  - Enterprise Security
+maintainers:
+  - North Pole Security
+last_updated: 2024-01-15
+version: "1.21.0"

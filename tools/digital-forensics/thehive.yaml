@@ -1,0 +1,43 @@
+name: TheHive
+category: digital-forensics
+description: >
+  Scalable incident response platform designed for security operations centers
+  and incident response teams. Provides case management, collaboration tools,
+  and integration capabilities for efficient incident handling and analysis.
+capabilities:
+  - Incident response case management
+  - Collaboration tools
+  - Case tracking and management
+  - Evidence collection
+  - Task management
+  - Integration capabilities
+  - Reporting and analytics
+  - Multi-user collaboration
+  - Workflow management
+project_url: https://github.com/TheHive-Project/TheHive
+documentation_url: https://docs.thehive-project.org/
+github_url: https://github.com/TheHive-Project/TheHive
+license: AGPL-3.0
+deployment:
+  compatible_envs:
+    - Linux
+    - Docker
+    - Kubernetes
+integration_examples:
+  - name: Docker Deployment
+    description: Deploy TheHive using Docker for incident response
+    url: https://github.com/TheHive-Project/TheHive
+  - name: Cortex Integration
+    description: Integrate with Cortex for automated analysis and enrichment
+    url: https://github.com/TheHive-Project/Cortex
+tags:
+  - Incident Response
+  - Case Management
+  - Collaboration
+  - SOC Platform
+  - Workflow Management
+  - Evidence Collection
+maintainers:
+  - TheHive Project
+last_updated: 2024-01-15
+version: "4.1.0"
